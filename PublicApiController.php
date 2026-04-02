@@ -59,7 +59,7 @@ class PublicApiController extends Controller
 
         return response()
             ->json($data, $code)
-            ->header('X-Powered-By', 'GSM-THEME')
+            ->header('X-Powered-By', 'GG-UNLOCKER')
             ->header('gsmtheme-api-version', apiVersion())
             ->header('Content-Type', 'application/json; charset=utf-8')
             ->header('Cache-Control', 'no-store, no-cache, must-revalidate, max-age=0')
@@ -74,7 +74,7 @@ class PublicApiController extends Controller
 
         return response()
             ->json($data, $code)
-            ->header('X-Powered-By', 'GSM-THEME')
+            ->header('X-Powered-By', 'GG-UNLOCKER')
             ->header('gsmtheme-api-version', apiVersion())
             ->header('Content-Type', 'application/json; charset=utf-8')
             ->header('Cache-Control', 'no-store, no-cache, must-revalidate, max-age=0')
